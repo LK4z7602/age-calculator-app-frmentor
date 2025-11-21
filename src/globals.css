@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/assets/fonts/Poppins-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/assets/fonts/Poppins-Reegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/assets/fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/assets/fonts/Poppins-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("/assets/fonts/Poppins-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url("/assets/fonts/Poppins-ExtraBoldItalic.ttf") format("truetype");
+}
+
+
+@theme {
+    /* === Primary Colors === */
+    --color-primary-purple: hsl(259, 100%, 65%);
+    --color-primary-red: hsl(0, 100%, 67%);
+
+    /* Neutrals */
+    --color-neutral-white: hsl(0, 100%, 100%);
+    --color-neutral-grey-100: hsl(0, 0%, 94%);
+    --color-neutral-grey-200: hsl(0, 0%, 86%);
+    --color-neutral-grey-500: hsl(0, 1%, 44%);
+    --color-neutral-black: hsl(0, 0%, 0%);
+
+
+    /* === Font Family === */
+    --font-primary: "Poppins", sans-serif;
+}
